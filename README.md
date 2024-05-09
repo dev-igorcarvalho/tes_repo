@@ -1,6 +1,7 @@
 # tes_repo
 test_repo
 ---
+```
 check-mockery:
 	@current_version=$$(mockery -version); \
 	if [[ -z "$$current_version" || "$$current_version" < "2.43.0" ]]; then \
@@ -9,3 +10,4 @@ check-mockery:
 	else \
 		echo "Mockery version $$current_version is up to date."; \
 	fi
+```
